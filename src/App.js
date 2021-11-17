@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <div>
-      <label>Enter Array: </label>
+      <label>Enter Comma Seprated Value: </label>
       <input type="text" name="inpNumber" onChange={(e) => onChangeNumber(e)} />
       <input type="button" value="submit" onClick={() => onSubmitNumber()} />
       <ShowNumber finalValue={finalValue}></ShowNumber>
