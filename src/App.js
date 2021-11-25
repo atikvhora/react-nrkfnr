@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ShowNumber from './ShowNumber';
+import { reducer } from 'react-redux';
 import './style.css';
 
 export default function App() {
